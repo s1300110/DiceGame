@@ -1,8 +1,12 @@
 import java.util.Random;
-
+import java.util.Scanner;
 public class DiceGame {
 
   public static void main(String[] args) {
+System.out.println("What is your name?");
+	Scanner name = new Scanner(System.in);
+	String name1= name.next();
+	System.out.println("Hello, "+name1+"!");
       int[] dice = { 1,2,3,4,5,6};
     Random r = new Random();
       int dice1 = dice[r.nextInt(6)];

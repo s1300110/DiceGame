@@ -17,9 +17,9 @@ System.out.println("What is your name?");
        System.out.println("Die 2: "+dice2);
        System.out.println("Total value: "+dice3);
        if(dice3>7){
-	   System.out.println("You won");
+	   System.out.println(name1+" won!");
        }else {
-	   System.out.println("You lost");}
+	   System.out.println(name1+" lost!");}
 
  }
 
